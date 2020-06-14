@@ -1,0 +1,24 @@
+{% extends base %}
+
+{% block title %}Insurance Product Dashboard{% endblock %}
+
+{% block preamble %}
+<link href="https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Long+Cang&display=swap" rel="stylesheet">
+<script>
+window.onload = function() {
+  document.querySelector("html").lang = "zh";
+  setTimeout(function(){ document.querySelectorAll(".bk").forEach(function(label) {
+  label.style.fontFamily = "'Long Cang', cursive";
+});},500);
+  
+};
+</script>
+<style>
+    body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #fff;
+    background: #2F2F2F;
+  }
+</style>
+{% endblock %}

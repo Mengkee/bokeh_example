@@ -1,14 +1,14 @@
 # bokeh_example
 
-一个简单的基于bokeh的可视化web application, based on [Bokeh Sample: movies](https://demo.bokeh.org/movies)
+A simple web application created by bokeh, based on [Bokeh Sample: movies](https://demo.bokeh.org/movies)
 [Bokeh Sample: crossfilter](https://demo.bokeh.org/crossfilter)
 
 
-运行
+How to run?
 ```
 bakeh serve --show test 
 ```
-或者
+or (especially when you have multiple versions of python on your machine)
 ```
 python3 -m bakeh serve --show test 
 ```

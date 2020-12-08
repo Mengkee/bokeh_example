@@ -6,9 +6,9 @@ A simple web application created by bokeh, based on [Bokeh Sample: movies](https
 
 How to run?
 ```
-bakeh serve --show test 
+bokeh serve --show test 
 ```
 or (especially when you have multiple versions of python on your machine)
 ```
-python3 -m bakeh serve --show test 
+python3 -m bokeh serve --show test 
 ```
